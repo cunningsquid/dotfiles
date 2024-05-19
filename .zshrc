@@ -78,7 +78,7 @@ source $ZSH/oh-my-zsh.sh
 alias l='ls -al'
 alias p='sudo xbps-install'
 alias nv='nvim'
-neofetch
+fastfetch
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment

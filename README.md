@@ -10,8 +10,8 @@ git,
 stow,
 fastfetch,
 dunst,
-waybar
-
+waybar,
+rofi
 ## Installation
 
 First clone the repo

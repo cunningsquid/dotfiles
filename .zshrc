@@ -78,6 +78,7 @@ source $ZSH/oh-my-zsh.sh
 alias l='ls -al'
 alias p='sudo dnf install'
 alias nv='nvim'
+alias tre='tree -I ".git" -a .'
 fastfetch
 # export MANPATH="/usr/local/man:$MANPATH"
 

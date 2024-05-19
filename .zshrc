@@ -76,7 +76,7 @@ source $ZSH/oh-my-zsh.sh
 
 # User configuration
 alias l='ls -al'
-alias p='sudo xbps-install'
+alias p='sudo dnf install'
 alias nv='nvim'
 fastfetch
 # export MANPATH="/usr/local/man:$MANPATH"

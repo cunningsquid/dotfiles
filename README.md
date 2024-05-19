@@ -6,12 +6,14 @@ dotfiles for my system
 
 You need to have the following installed on your system
 
-git
-stow
+git,
+stow,
+neofetch
 
 ## Installation
 
 First clone the repo
+
 Then enter the directory of the cloned repo
 
 ```

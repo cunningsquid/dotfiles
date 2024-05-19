@@ -8,7 +8,9 @@ You need to have the following installed on your system
 
 git,
 stow,
-fastfetch
+fastfetch,
+dunst,
+waybar
 
 ## Installation
 

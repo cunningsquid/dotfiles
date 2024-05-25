@@ -2,4 +2,5 @@
 
 nm-applet --indicator &
 waybar &
-dunst
+dunst &
+variety

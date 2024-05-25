@@ -11,8 +11,16 @@ stow,
 fastfetch,
 dunst,
 waybar,
-rofi
+rofi,
+i3,
+hyprland,
+variety,
+neovim
 ## Installation
+
+```
+$ sudo dnf install git stow fastfetch dunst waybar hyprland rofi i3 variety neovim
+```
 
 First clone the repo
 

@@ -15,11 +15,13 @@ rofi,
 i3,
 hyprland,
 variety,
-neovim
+neovim,
+kitty,
+flameshot
 ## Installation
 
 ```
-$ sudo dnf install git stow fastfetch dunst waybar hyprland rofi i3 variety neovim
+$ sudo dnf install git stow fastfetch dunst waybar hyprland rofi i3 variety neovim kitty flameshot
 ```
 
 First clone the repo

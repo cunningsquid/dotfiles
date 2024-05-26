@@ -1,4 +1,7 @@
 0
+/home/cunningsquid/wallpapers/Fantasy-Snow-Valley.png
+/home/cunningsquid/wallpapers/japan-street-Light.png
+/home/cunningsquid/wallpapers/Dessert-Dark.png
 /home/cunningsquid/wallpapers/Anime-Room.png
 /home/cunningsquid/wallpapers/highway_light.png
 /home/cunningsquid/wallpapers/Manga-Shrine.png
@@ -96,6 +99,3 @@
 /home/cunningsquid/wallpapers/Relaxed_Mario.png
 /home/cunningsquid/wallpapers/Lofi-Room.png
 /home/cunningsquid/wallpapers/Minimal_Squares.png
-/home/cunningsquid/wallpapers/Lofi-Cafe.png
-/home/cunningsquid/wallpapers/Anime-Fireworks.png
-/home/cunningsquid/wallpapers/CuteCat.png

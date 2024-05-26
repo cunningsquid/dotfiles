@@ -1,4 +1,7 @@
 0
+/home/cunningsquid/wallpapers/Evangelion.png
+/home/cunningsquid/wallpapers/Anime-Girl3.png
+/home/cunningsquid/wallpapers/Night_City.png
 /home/cunningsquid/wallpapers/Anime-Girl1.png
 /home/cunningsquid/wallpapers/Anime-Room.png
 /home/cunningsquid/wallpapers/Night_City.png

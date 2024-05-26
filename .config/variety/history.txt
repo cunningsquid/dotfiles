@@ -1,4 +1,5 @@
 0
+/home/cunningsquid/wallpapers/Fantasy-Lake1.png
 /home/cunningsquid/wallpapers/Fantasy-Snow-Valley.png
 /home/cunningsquid/wallpapers/japan-street-Light.png
 /home/cunningsquid/wallpapers/Dessert-Dark.png
@@ -98,4 +99,3 @@
 /home/cunningsquid/wallpapers/Beach_light.png
 /home/cunningsquid/wallpapers/Relaxed_Mario.png
 /home/cunningsquid/wallpapers/Lofi-Room.png
-/home/cunningsquid/wallpapers/Minimal_Squares.png

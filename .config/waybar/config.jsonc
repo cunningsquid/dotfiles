@@ -30,6 +30,9 @@
 		"cpu",
 		"custom/left-arrow-light",
 		"custom/left-arrow-dark",
+		"temp",
+		"custom/left-arrow-light",
+		"custom/left-arrow-dark",
 		"battery",
 		"custom/left-arrow-light",
 		"custom/left-arrow-dark",
@@ -97,6 +100,11 @@
 	"cpu": {
 		"interval": 5,
 		"format": "CPU {usage:2}%"
+	},
+	"temp": {
+		"thermal-zone": 1,
+		"interval": 5,
+		"format": "TEMP {temperatureC}°C"
 	},
 	"battery": {
 		"states": {

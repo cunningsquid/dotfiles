@@ -7,6 +7,9 @@
 	"modules-left": [
 		"custom/left-arrow-dark",
 		"hyprland/workspaces",
+		"custom/right-arrow-dark",
+		"custom/left-arrow-dark",
+		"hyprland/window",
 		"custom/right-arrow-dark"
 	],
 	"modules-center": [
@@ -58,6 +61,11 @@
 	"sway/workspaces": {
 		"disable-scroll": true,
 		"format": "{name}"
+	},
+
+	"hyprland/window": {
+		"format": "{title}",
+		"separate-outputs": true
 	},
 
 	"clock#1": {

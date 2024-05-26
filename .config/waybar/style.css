@@ -4,7 +4,7 @@
 }
 
 window#waybar {
-	background: #292b2e;
+	background: rgba(12, 12, 12, 0.0);
 	color: #fdf6e3;
 }
 
@@ -14,8 +14,7 @@ window#waybar {
 }
 #custom-right-arrow-light,
 #custom-left-arrow-light {
-	color: #292b2e;
-	background: #1a1a1a;
+	background: rgba(12, 12, 12, 0.0);
 }
 
 #workspaces,

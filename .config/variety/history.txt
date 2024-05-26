@@ -1,4 +1,13 @@
 0
+/home/cunningsquid/wallpapers/Fantasy-Lake2.png
+/home/cunningsquid/wallpapers/Beach-Dark.png
+/home/cunningsquid/wallpapers/Mecha-Nostalgia.png
+/home/cunningsquid/wallpapers/Mountain_light.png
+/home/cunningsquid/wallpapers/kitty_dark.png
+/home/cunningsquid/wallpapers/Arch-chan_to.png
+/home/cunningsquid/wallpapers/Garden-Dark.png
+/home/cunningsquid/wallpapers/City-Rainy-Night.png
+/home/cunningsquid/wallpapers/Arcade_decay_red.png
 /home/cunningsquid/wallpapers/Sun-Setting-Horizon.png
 /home/cunningsquid/wallpapers/Anime-Girl-Tears.png
 /home/cunningsquid/wallpapers/Anime-Fireworks.png
@@ -90,9 +99,3 @@
 /home/cunningsquid/wallpapers/Red_Eclipse.png
 /home/cunningsquid/wallpapers/Evangelion.png
 /home/cunningsquid/wallpapers/Dessert-Dark.png
-/home/cunningsquid/wallpapers/Relaxed_Mario.png
-/home/cunningsquid/wallpapers/Lofi_Cat.png
-/home/cunningsquid/wallpapers/City_light.png
-/home/cunningsquid/wallpapers/Lofi-Cafe.png
-/home/cunningsquid/wallpapers/Fantasy-Lake1.png
-/usr/share/backgrounds/f40/default/f40-01-day.png

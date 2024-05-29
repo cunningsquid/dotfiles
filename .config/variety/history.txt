@@ -1,4 +1,5 @@
 0
+/home/cunningsquid/wallpapers/Anime-City-Night.png
 /home/cunningsquid/wallpapers/Fantasy-Garden.png
 /home/cunningsquid/wallpapers/Space-Nebula.png
 /home/cunningsquid/wallpapers/Techno-Geek.png
@@ -98,4 +99,3 @@
 /home/cunningsquid/wallpapers/Anime-Girl-Tears.png
 /home/cunningsquid/wallpapers/Patterns.png
 /home/cunningsquid/wallpapers/Beach_light.png
-/home/cunningsquid/wallpapers/Anime-Girl-Rain.png

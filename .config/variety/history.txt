@@ -1,4 +1,6 @@
 0
+/home/cunningsquid/wallpapers/Anime-Girl4.png
+/home/cunningsquid/wallpapers/Minimal_Squares.png
 /home/cunningsquid/wallpapers/Riverside_light.png
 /home/cunningsquid/wallpapers/Anime-City-Night.png
 /home/cunningsquid/wallpapers/Fantasy-Garden.png
@@ -97,5 +99,3 @@
 /home/cunningsquid/wallpapers/Lowpoly_Street.png
 /home/cunningsquid/wallpapers/Bonsai-Plant.png
 /home/cunningsquid/wallpapers/City-Rainy-Night.png
-/home/cunningsquid/wallpapers/Anime-Girl-Tears.png
-/home/cunningsquid/wallpapers/Patterns.png

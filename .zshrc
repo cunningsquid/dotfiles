@@ -76,7 +76,7 @@ source $ZSH/oh-my-zsh.sh
 
 # User configuration
 alias l='ls -al'
-alias p='sudo dnf install'
+alias p='yay -S'
 alias nv='nvim'
 alias tre='tree -I ".git" -a .'
 fastfetch

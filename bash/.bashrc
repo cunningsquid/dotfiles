@@ -14,6 +14,10 @@ function y() {
 }
 
 export EDITOR="nvim"
+export QT_QPA_PLATFORMTHEME=qt6ct
+export SDL_AUDIODRIVER=pulseaudio
+export OPENAL_SOFT_DRIVERS=pulse
+export SDL_AUDIO_DISABLE_REALTIME=1
 
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'

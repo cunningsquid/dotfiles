@@ -1,119 +1,91 @@
+// -*- mode: jsonc -*-
 {
-    "layer": "top",
-    "spacing": 0,
-    "height": 0,
+    "layer": "top", 
+    "position": "top", 
+    "height": 30, 
+    "spacing": 4, 
 
-    "margin-top": 10,
-    "margin-right": 10,
-    "margin-bottom": 0,
-    "margin-left": 10,
-
+    // Choose the order of the modules
     "modules-left": [
-        "custom/launcher",
         "hyprland/workspaces",
-        "custom/hyprland-window"
+        "custom/sep",
+        "hyprland/window",
+        "custom/sep"
     ],
-
     "modules-center": [
-        "clock"
     ],
 
     "modules-right": [
-        "tray",
-		"hyprland/language",
-        "cpu_text",
-        "cpu",
-        "memory",
-        "battery",
+        "custom/sep",
         "network",
-        "pulseaudio",
-		"custom/control"
+        "custom/sep",
+        "cpu",
+        "custom/sep",
+        "memory",
+        "custom/sep",
+        "disk",
+        "custom/sep",
+        "clock",
+        "custom/sep",
+        "tray"
     ],
 
-    "custom/launcher":{
-        "format": " ",
-        "on-click": "rofi -show drun",
-        "on-click-right": "killall rofi",
-        "tooltip": false
-    },
-
+    // Modules configuration
     "hyprland/workspaces": {
         "disable-scroll": true,
-        "all-outputs": true,
-        "tooltip": false
-    },
-
-    "custom/hyprland-window": {
-        "format": "{}",
-        "exec": "~/.config/waybar/scripts/hyprland-window.sh",
-        "interval": 1,
-        "tooltip": false
-    },
-
-    "tray": {
-        "spacing": 10,
-        "tooltip": false
-    },
-
-    "clock": {
-        "format": "{:%H:%M - %a, %d %b %Y}",
-        "tooltip": false
-    },
-
-    "cpu": {
-        "format": "cpu {usage}%",
-        "interval": 2,
-
-        "states": {
-            "critical": 90
-        }
-    },
-
-    "memory": {
-        "format": "mem {percentage}%",
-        "interval": 2,
-
-        "states": {
-            "critical": 80
-        }
-    },
-
-    "battery": {
-        "format": "bat {capacity}%",
-        "interval": 5,
-        "states": {
-            "warning": 20,
-            "critical": 10
+        "all-outputs": false,
+        "warp-on-scroll": false,
+        "format": "{name}",
+        "persistent-workspaces": {
+            "HDMI-A-1": [1, 2, 3, 4, 5],
+            "DVI-D-1": [6, 7, 8, 9, 0],
         },
+    },
+    "hyprland/window" : {
+        "max-length": 40,
+        "seperate-outputs": false
+    },
+    "tray": {
+        // "icon-size": 21,
+        "spacing": 10
+        // "icons": {
+        //   "blueman": "bluetooth",
+        //   "TelegramDesktop": "$HOME/.local/share/icons/hicolor/16x16/apps/telegram.png"
+        // }
+    },
+    "clock": {
+        "format-alt": "{:%Y-%m-%d}"
+    },
+    "cpu": {
+        "format": "CPU: {usage}%",
         "tooltip": false
     },
-
+    "memory": {
+        "format": "Mem: {used}GiB"
+    },
+    "disk": {
+        "interval": 60,
+        "path": "/",
+        "format": "Disk: {free}"
+    },
+    "battery": {
+        "states": {
+            "good": 95,
+            "warning": 30,
+            "critical": 15
+        },
+        "format": "Bat: {capacity}% {icon} {time}",
+        "format-plugged": "{capacity}% ",
+        "format-alt": "Bat {capacity}%",
+        "format-time": "{H}:{M}",
+        "format-icons": ["", "", "", "", ""]
+    },
     "network": {
-        "format-wifi" : "wifi {bandwidthDownBits}",
-        "format-ethernet": "enth {bandwidthDownBits}",
-        "format-disconnected" : "no network",
-        "interval": 5,
-        "tooltip": false
+        "format": "Online",
+        "format-disconnected": "Disconnected ⚠"
     },
-
-    "pulseaudio": {
-        "scroll-step": 5,
-        "max-volume": 150,
-        "format": "vol {volume}%",
-        "format-bluetooth": "vol {volume}%",
-        "nospacing": 1,
-        "on-click": "pwvucontrol",
-        "tooltip": false
-    },
-
-	"hyprland/language": {
-		"format": "{short}",
-	},
-
-	"custom/control":{
-        "format": " ",
-        "on-click": "wlogout",
-        "on-click-right": "killall wlogout",
-        "tooltip": false
-    },
+    "custom/sep": {
+        "format" : "|",
+        "interval" : 0
+    }
 }

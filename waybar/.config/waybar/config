@@ -25,6 +25,8 @@
         "custom/sep",
         "disk",
         "custom/sep",
+        "battery",
+        "custom/sep",
         "clock",
         "custom/sep",
         "tray"
@@ -37,8 +39,7 @@
         "warp-on-scroll": false,
         "format": "{name}",
         "persistent-workspaces": {
-            "HDMI-A-1": [1, 2, 3, 4, 5],
-            "DVI-D-1": [6, 7, 8, 9, 0],
+            "*": 9,
         },
     },
     "hyprland/window" : {
@@ -70,9 +71,9 @@
     },
     "battery": {
         "states": {
-            "good": 95,
-            "warning": 30,
-            "critical": 15
+            "good": 80,
+            "warning": 40,
+            "critical": 20
         },
         "format": "Bat: {capacity}% {icon} {time}",
         "format-plugged": "{capacity}% ",

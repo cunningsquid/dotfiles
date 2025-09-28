@@ -27,3 +27,5 @@ vim.api.nvim_create_autocmd("CursorHold", {
 })
 
 require("config.lazy")
+
+vim.cmd[[colorscheme tokyonight]]

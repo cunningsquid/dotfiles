@@ -1,26 +1,19 @@
-/*
- * Tokyonight colorscheme for rofi
- * User: w8ste
- */
-
-
 // define colors etc.
+// defines different aspects of the window
 * {
-    bg: #24283b;
-    hv: #9274ca; 
-    primary: #C5C8C6; 
-    ug: #0B2447;
+    kl: #3F6CAD;
+    bg: #121212;        // bg-normal
+    hv: #3F6CAD;        // highlight / selected
+    primary: #C8C8C8;   // fg-normal
+    ug: #7B3E59;        // urgent/red
     font: "Monospace 11";
     background-color: @bg;
-    //dark: @bg;
     border: 0px;
-    kl: #7aa2f7;
     black: #000000;
 
     transparent: rgba(46,52,64,0);
 }
 
-// defines different aspects of the window
 window {
     width: 700;
     /*since line wont work with height, i comment it out 

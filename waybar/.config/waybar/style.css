@@ -1,14 +1,14 @@
-@define-color bg    #1a1b26; 
-@define-color fg    #a9b1d6; 
-@define-color blk   #32344a; 
-@define-color red   #f7768e; 
-@define-color grn   #9ece6a; 
-@define-color ylw   #e0af68; 
-@define-color blu   #7aa2f7; 
-@define-color mag   #ad8ee6; 
-@define-color cyn   #0db9d7; 
-@define-color brblk #444b6a; 
-@define-color white #ffffff; 
+@define-color bg    #121212; 
+@define-color fg    #C8C8C8; 
+@define-color blk   #191919; 
+@define-color red   #7B3E59; 
+@define-color grn   #798347; 
+@define-color ylw   #AE9F76; 
+@define-color blu   #3F6CAD; 
+@define-color mag   #553976; 
+@define-color cyn   #416680; 
+@define-color brblk #302E31; 
+@define-color white #DCEFFF; 
 
 * {
     font-family: "JetBrainsMono Nerd Font", monospace;
@@ -65,8 +65,8 @@ button:hover {
 }
 
 #clock {
-    color: @cyn;
-    border-bottom: 4px solid @cyn;
+    color: @red;
+    border-bottom: 4px solid @red;
 }
 
 #battery {
@@ -75,8 +75,8 @@ button:hover {
 }
 
 #disk {
-    color: @ylw;
-    border-bottom: 4px solid @ylw;
+    color: @cyn;
+    border-bottom: 4px solid @cyn;
 }
 
 #memory {
@@ -85,13 +85,13 @@ button:hover {
 }
 
 #cpu {
-    color: @grn;
-    border-bottom: 4px solid @grn;
+    color: @cyn;
+    border-bottom: 4px solid @cyn;
 }
 
 #network {
-    color: @blu;
-    border-bottom: 4px solid @blu;
+    color: @mag;
+    border-bottom: 4px solid @mag;
 }
 
 #network.disconnected {

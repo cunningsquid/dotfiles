@@ -2,8 +2,8 @@
 {
     "layer": "top", 
     "position": "top", 
-    "height": 20, 
-    "spacing": 4, 
+    "height": 10, 
+    "spacing": 2, 
 
     // Choose the order of the modules
     "modules-left": [
